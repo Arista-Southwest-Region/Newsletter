@@ -3,12 +3,10 @@
 
 # Arista Southwest Region Newsletter
 
-Welcome to the November 2025 newsletter for Arista customers in the U.S. Southwest Region!  
+Welcome to the December 2025 newsletter for Arista customers in the U.S. Southwest Region!  
 
-Did you hear? Arista and Palo Alto Networks have patnered to help advance security in this new age of AI. Check out the blog below!    
-[Arista and Palo Alto Networks Partnership in AI Security](https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)  
-
-Check out additional Blog Posts below!  
+Click the links below to view blogs from our leadership team!   
+[Delivering Reliable AI and Cloud Networking](https://blogs.arista.com/blog/delivering-reliable-ai-and-cloud-networking)   
 [Next Generation SD-WAN in the AI Era, by Arista CEO Jayshree Ullal](https://blogs.arista.com/blog/next-generation-sd-wan-in-the-ai-era)  
 [CloudVision: The First Decade](https://blogs.arista.com/blog/cloudvision-the-first-decade-2025)  
 [All Blogs](https://blogs.arista.com/blog)  
