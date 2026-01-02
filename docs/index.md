@@ -188,23 +188,23 @@ For new code releases, click [here](https://www.arista.com/en/support/software-d
 
 ---
 
-## __*Security Advisories and Field Notices*__
+## __*🛡️ Security Advisories and Field Notices*__
 
 ![Image Placememt](img/Security_image.png)
 
-Below is a list of advisories that are announced by Arista. To view more details on the specific advisories, please click the links in the middle row.
+*Stay informed on the latest platform security and field notice updates.*
 
-| Name          | Advisory Link           | Date of Advisory Notice  |
-| :-----------: |:-------------:| :-----:|
-|  __Arista DANZ Monitoring Fabric__   | [Security Advisory 0124](https://www.arista.com/en/support/advisories-notices/security-advisory/22538-security-advisory-0124){: target="_blank" }  | October 22nd, 2025   |  
-|  __Arista Edge Threat Management NGFW__   | [Security Advisory 0123](https://www.arista.com/en/support/advisories-notices/security-advisory/22535-security-advisory-0123){: target="_blank" }  | October 21st, 2025   |  
-|  __WiFi 7 Access Points Firmware Version 21.0__   | [Field Notice 0117](https://www.arista.com/en/support/advisories-notices/field-notice/22534-field-notice-0117){: target="_blank" }  | October 16th, 2025   |  
-|  __SwitchApp Interfaces starting with EOS 4.35.0F__   | [Field Notice 0116](https://www.arista.com/en/support/advisories-notices/field-notice/22528-field-notice-0116){: target="_blank" }  | October 14th, 2025   |  
+#### **Security Advisories**
+* **DMF** — [Security Advisory 0124](https://www.arista.com/en/support/advisories-notices/security-advisory/22538-security-advisory-0124){: target="_blank" } <br> *(Oct 22, 2025)*
+* **ETM NGFW** — [Security Advisory 0123](https://www.arista.com/en/support/advisories-notices/security-advisory/22535-security-advisory-0123){: target="_blank" } <br> *(Oct 21, 2025)*
 
- 
+#### **Field Notices**
+* **WiFi 7 AP** — [Field Notice 0117](https://www.arista.com/en/support/advisories-notices/field-notice/22534-field-notice-0117){: target="_blank" } <br> *(Oct 16, 2025)*
+* **SwitchApp** — [Field Notice 0116](https://www.arista.com/en/support/advisories-notices/field-notice/22528-field-notice-0116){: target="_blank" } <br> *(Oct 14, 2025)*
 
 
-For a list of the most current advisories and notices, click [Here](https://www.arista.com/en/support/advisories-notices){: target="_blank" }
+
+[View All Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
 
 ---
 
@@ -214,30 +214,20 @@ For a list of the most current advisories and notices, click [Here](https://www.
 
 
 
-**New Releases** of Arista's devices are listed below 
-
-|  Device       | More Information |  Release Date 
-    | :-----------: | :-----------:    | :-----------:
-    | Arista VeloCloud | [VeloCloud Acquisition](https://www.arista.com/en/company/news/press-release/21646-pr-07012025){: target="_blank" } | Q3 2025
-    |  Arista SWAG    |   [Modern Stacking for Campus](https://www.arista.com/en/company/news/press-release/20693-pr-12032024){: target="_blank" }                | Q1 2025 
-    | Arista Multi-Domain Segmentation Service  | [Arista MSS](https://www.arista.com/en/company/news/press-release/19297-pr-20240430){: target="_blank" }         | Q3 2024
-    | Arista CV UNO  | [CloudVision Universal Network Observability](https://www.arista.com/en/company/news/press-release/19195-pr-20240305){: target="_blank" }  | Q1 2024
 
 
 
-**End of Sale** notices are listed below.
+### 🚀 **New Product Releases** are listed below:
+* **Q3 2025** — [VeloCloud Acquisition](https://www.arista.com/en/company/news/press-release/21646-pr-07012025){: target="_blank" }
+* **Q1 2025** — [Modern Stacking for Campus](https://www.arista.com/en/company/news/press-release/20693-pr-12032024){: target="_blank" }
 
-| Device        | Name           | End Of Sale Date  |
-| :-----------: |:-------------: |     :----:        |
-| Software      | [End of Software for CloudVision Portal 2023.2](https://www.arista.com/en/support/advisories-notices/end-of-support/21412-end-of-software-support-for-cloudvision-portal-2023-2-release-train){: target="_blank" }<br>[End of Software Support for EOS 4.28](https://www.arista.com/en/support/advisories-notices/end-of-support/21275-end-of-software-support-for-eos-4-28){: target="_blank" }<br>[DMF and CCF Deployments on Accton/ Edgecore Switches](https://www.arista.com/en/support/advisories-notices/end-of-support/21094-end-of-support-for-dmf-and-ccf-deployments-on-accton-edgecore-switches){: target="_blank" }<br>[EOS-4.34 and later no longer supported on select switches](https://www.arista.com/en/support/advisories-notices/end-of-support/21089-end-of-software-support-for-7280r-r2-7500r-r2-and-7020r-series){: target="_blank" }<br> | May 27th, 2025 <br> March 14, 2025 <br>January 31st, 2025 <br>January 15th, 2025 <br> |
-| CVP           | [CVP IPAM Application](https://www.arista.com/en/support/advisories-notices/endofsupport){: target="_blank" } <br> [CVP 2023.3](https://www.arista.com/en/support/advisories-notices/end-of-support/21627-end-of-software-support-for-cloudvision-portal-2023-3-release-train){: target="_blank" }          |  July 14th, 2025 <br> June 17th, 2025   |
-| DMF           | [DMF Service Node DCA-DM-SC2](https://www.arista.com/en/support/advisories-notices/end-of-sale/22537-end-of-sale-end-of-life-for-arista-service-node-appliance-dca-dm-sc2){: target="_blank" }          |  October 22nd, 2025           |  
-| CCF           | [CCF Product Line](https://www.arista.com/en/support/advisories-notices/end-of-sale/22430-end-of-sale-end-of-life-for-arista-ccf-product-line){: target="_blank" }          |  October 1st, 2025           |  
-| Switches      | [7010TX-48-DC Switch](https://www.arista.com/en/support/advisories-notices/end-of-sale/22421-end-of-sale-of-the-arista-7010tx-48-dc-switches){: target="_blank" }<br> [7050CX3-32S Switch](https://www.arista.com/en/support/advisories-notices/end-of-sale/22419-end-of-sale-of-the-arista-7050cx3-32s-switches){: target="_blank" }<br> [CCS-720XP-96ZC2 Switch with 4GB DRAM](https://www.arista.com/en/support/advisories-notices/end-of-sale/22403-end-of-sale-of-the-arista-ccs-720xp-96zc2-switches-with-4gb-dram){: target="_blank" }<br> [CCS-720D Switches with 4GB DRAM](https://www.arista.com/en/support/advisories-notices/end-of-sale/22402-end-of-sale-of-the-arista-ccs-720d-switches-with-4gb-dram){: target="_blank" }<br> [CCS-710P-12 Switch](https://www.arista.com/en/support/advisories-notices/end-of-sale/22401-end-of-sale-of-the-arista-ccs-710p-12-switch){: target="_blank" } |  September 19th, 2025<br> September 19th, 2025<br> September 12th, 2025<br> September 12th, 2025<br> September 12th, 2025 |
-| Access Points      | [AP Mounts](https://www.arista.com/en/support/advisories-notices/end-of-sale/22536-end-of-sale-of-ap-mounts-mnt-ap-flat-c130-mnt-ap-flat-c100-mnt-ap-flat-14cm-a){: target="_blank" }<br> |  October 22nd, 2025 <br> | 
-| VeloCloud      | [SASE Secured by Symantec](https://www.arista.com/en/support/advisories-notices/end-of-sale/22072-end-of-sale-life-velocloud-sase-secured-symantec){: target="_blank" }<br> [Software Defined (SD) Access](https://www.arista.com/en/support/advisories-notices/end-of-sale/21653-end-of-sale-end-of-life-for-velocloud-software-defined-sd-access){: target="_blank" } <br> |  August 20th, 2024 <br> July 1st, 2025 | 
+### ⚠️ **End of Sale / End of Software Support** notices are listed below:
+* **Oct 22, 2025** — [DMF Service Node](https://www.arista.com/en/support/advisories-notices/end-of-sale/22537-end-of-sale-end-of-life-for-arista-service-node-appliance-dca-dm-sc2){: target="_blank" } 
+* **Oct 22, 2025** — [AP Mounts](https://www.arista.com/en/support/advisories-notices/end-of-sale/22536-end-of-sale-of-ap-mounts-mnt-ap-flat-c130-mnt-ap-flat-c100-mnt-ap-flat-14cm-a){: target="_blank" } 
+* **Oct 01, 2025** — [CCF Product Line](https://www.arista.com/en/support/advisories-notices/end-of-sale/22430-end-of-sale-end-of-life-for-arista-ccf-product-line){: target="_blank" }
 
 
+[View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
 
 ---
 ## *Your Southwest Regional Team is Here to Support Your Success.* 
