@@ -1,4 +1,4 @@
-![Image Placememt](img/Arista_Logo_copy.png)
+![Image Placememt](img/Arista_logo_copy.png)
 
 # Arista Southwest Region Newsletter
 
@@ -6,8 +6,10 @@ Welcome to the January 2026 Newsletter for Arista customers in the U.S. Southwes
 
 We welcome your feedback on the newsletter. If you have any ideas or suggestions on how to improve the newsletter, please reach out to [southwest@arista.com](mailto:southwest@arista.com){: target="_blank" }.  
 
-## Leadership Perspectives — Recent Blogs from Arista Leadership
 ---
+
+## Leadership Perspectives — Recent Blogs from Arista Leadership
+
 <div class="grid cards" markdown>
 
 -   **Delivering Reliable AI and Cloud Networking**
@@ -42,7 +44,7 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 ---
 
 
-## 🛠️ Southwest Region Tech Tip of the Month
+## Southwest Region Tech Tip of the Month
 
 !!! info "The 'Pre-Game' Safety Net: CloudVision Snapshots"
     <div style="font-size: 1.15em; line-height: 1.5;" markdown>
@@ -55,7 +57,7 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
   
 
 ---
-## 📚 Articles
+## January Articles
 
 ### Unlocking Continuous Network Uptime: The Power of Arista SSU Hitless Upgrade
 By: Alex Bojko, Advisory Systems Engineer 
@@ -170,8 +172,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 ## __*Software Updates*__
 ![Image Placememt](img/software_upgrades_condensed.png)
 
-For new code releases, click [here](https://www.arista.com/en/support/software-download){: target="_blank" } 
-
+*Stay informed on the latest software updates across all arista products and services.*
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------:
@@ -183,22 +184,23 @@ For new code releases, click [here](https://www.arista.com/en/support/software-d
 | __TerminAttr__    | 1.39.1 <br>       | July 18th, 2025 <br>  
 | __VeloCloud SD-WAN__  <br>Orchestrator/ Gateway / Edge<br>  | <br>6.4.0 <br>       | <br> May 2nd, 2025 <br> 
 
+[View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
 
 
 
 ---
 
-## __*🛡️ Security Advisories and Field Notices*__
+## __* Security Advisories and Field Notices*__
 
-![Image Placememt](img/Security_image.png)
+![Image Placememt](img/Security_image_2.png)
 
 *Stay informed on the latest platform security and field notice updates.*
 
-#### **Security Advisories**
+### **Security Advisories**
 * **DMF** — [Security Advisory 0124](https://www.arista.com/en/support/advisories-notices/security-advisory/22538-security-advisory-0124){: target="_blank" } <br> *(Oct 22, 2025)*
 * **ETM NGFW** — [Security Advisory 0123](https://www.arista.com/en/support/advisories-notices/security-advisory/22535-security-advisory-0123){: target="_blank" } <br> *(Oct 21, 2025)*
 
-#### **Field Notices**
+### **Field Notices**
 * **WiFi 7 AP** — [Field Notice 0117](https://www.arista.com/en/support/advisories-notices/field-notice/22534-field-notice-0117){: target="_blank" } <br> *(Oct 16, 2025)*
 * **SwitchApp** — [Field Notice 0116](https://www.arista.com/en/support/advisories-notices/field-notice/22528-field-notice-0116){: target="_blank" } <br> *(Oct 14, 2025)*
 
@@ -208,20 +210,20 @@ For new code releases, click [here](https://www.arista.com/en/support/software-d
 
 ---
 
-## __*Product Updates - New Releases and End of Sale Notices *__
+## __* Product Updates*__
 
 ![Image Placememt](img/Product_image.png)
 
 
+*Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
 
 
 
-
-### 🚀 **New Product Releases** are listed below:
+### **New Product Releases** 
 * **Q3 2025** — [VeloCloud Acquisition](https://www.arista.com/en/company/news/press-release/21646-pr-07012025){: target="_blank" }
 * **Q1 2025** — [Modern Stacking for Campus](https://www.arista.com/en/company/news/press-release/20693-pr-12032024){: target="_blank" }
 
-### ⚠️ **End of Sale / End of Software Support** notices are listed below:
+###  **End of Sale / End of Software Support**
 * **Oct 22, 2025** — [DMF Service Node](https://www.arista.com/en/support/advisories-notices/end-of-sale/22537-end-of-sale-end-of-life-for-arista-service-node-appliance-dca-dm-sc2){: target="_blank" } 
 * **Oct 22, 2025** — [AP Mounts](https://www.arista.com/en/support/advisories-notices/end-of-sale/22536-end-of-sale-of-ap-mounts-mnt-ap-flat-c130-mnt-ap-flat-c100-mnt-ap-flat-14cm-a){: target="_blank" } 
 * **Oct 01, 2025** — [CCF Product Line](https://www.arista.com/en/support/advisories-notices/end-of-sale/22430-end-of-sale-end-of-life-for-arista-ccf-product-line){: target="_blank" }

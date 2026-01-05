@@ -86,6 +86,18 @@
     color: #ffffff;
 }
 
+/* Force "Let's Connect" button to Arista Navy */
+.md-typeset .md-button--primary {
+    background-color: #004a99 !important;
+    border-color: #004a99 !important;
+    color: #ffffff !important;
+}
+
+/* Darker navy hover effect for the button */
+.md-typeset .md-button--primary:hover {
+    background-color: #003a7a !important;
+    border-color: #003a7a !important;
+}
 /* --- 4. TECH TIP (ADMONITIONS) --- */
 
 .md-typeset .admonition.info, 
