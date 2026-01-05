@@ -98,6 +98,7 @@
     background-color: #003a7a !important;
     border-color: #003a7a !important;
 }
+
 /* --- 4. TECH TIP (ADMONITIONS) --- */
 
 .md-typeset .admonition.info, 
@@ -119,11 +120,17 @@
     mask-image: var(--md-admonition-icon--info);
 }
 
-/* --- 5. UI ELEMENTS --- */
+/* --- 5. UI ELEMENTS (BACK TO TOP) --- */
 
 .md-top {
     background-color: #004a99;
     color: #ffffff !important;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Lighter Arista Blue hover state */
+.md-top:hover {
+    background-color: #1a6bc2 !important; 
 }
 
 .md-top svg {
@@ -132,16 +139,14 @@
 
 /* --- 6. TABLE STYLING & ZEBRA STRIPES --- */
 
-/* Force tables to span the full width of the content area */
 .md-typeset table:not([class]) {
     display: table !important;
     width: 100% !important;
     border-collapse: collapse;
     margin: 20px 0;
-    table-layout: fixed; /* Keeps columns even on desktop */
+    table-layout: fixed;
 }
 
-/* Style the Header Row (Arista Navy) */
 .md-typeset thead {
     background-color: #004a99 !important;
     color: #ffffff;
@@ -154,7 +159,6 @@
     text-align: center !important;
 }
 
-/* Zebra Striping */
 .md-typeset tbody tr:nth-child(odd) {
     background-color: #ffffff;
 }
@@ -163,44 +167,37 @@
     background-color: #f8f9fa !important;
 }
 
-/* Standard Cell Styling */
 .md-typeset td {
     padding: 12px;
     border-bottom: 1px solid #e9ecef;
     text-align: center;
 }
 
-/* Highlight row on hover */
 .md-typeset tbody tr:hover {
     background-color: rgba(0, 74, 153, 0.05) !important;
 }
 
-/* --- 7. MOBILE RESPONSIVENESS (SHRINK TO FIT ALL TABLES) --- */
+/* --- 7. MOBILE RESPONSIVENESS --- */
 
 @media screen and (max-width: 45em) {
-    /* Kill the scroll container for all tables */
     .md-typeset__table {
         overflow-x: visible !important; 
         display: block !important;
     }
 
-    /* Force all tables to fit within the screen width */
     .md-typeset table:not([class]) {
         table-layout: auto !important;
         width: 100% !important;
         min-width: 100% !important;
     }
 
-    /* Target all headers and cells to shrink and stay on one line */
     .md-typeset td, 
     .md-typeset th {
-        font-size: 0.60rem !important; /* Aggressive shrink to prevent wrapping */
-        padding: 4px 2px !important;   /* Minimal padding to save space */
-        white-space: nowrap !important; /* Force text to stay on one line */
-        min-width: 0 !important;       /* Removes any min-width restrictions */
-        letter-spacing: -0.4px !important; /* Squeeze letters to fit */
+        font-size: 0.60rem !important;
+        padding: 4px 2px !important;
+        white-space: nowrap !important;
+        min-width: 0 !important;
+        letter-spacing: -0.4px !important;
     }
-
-    /* Optional: Hide the very last column if it's still causing overflow on tiny screens */
-    /* .md-typeset td:last-child, .md-typeset th:last-child { display: none; } */
 }
+
