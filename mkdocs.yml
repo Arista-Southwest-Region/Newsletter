@@ -6,6 +6,11 @@ edit_uri: edit/main/docs/
 
 plugins:
   - search
+  - social:
+      cards: true
+      cards_directory: .cache/social
+      cards_layout_options:
+        background_color: "#004a99"
 
 theme:
   name: material
