@@ -4,6 +4,9 @@ repo_name: aristasouthwest/Newsletter
 docs_dir: docs/
 edit_uri: edit/main/docs/
 
+plugins:
+  - search
+
 theme:
   name: material
   logo: img/Arista_Logo_copy.png

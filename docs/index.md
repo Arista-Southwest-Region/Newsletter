@@ -1,3 +1,11 @@
+---
+title: Arista Southwest Region Newsletter
+description: Stay up to date with the latest Arista EOS releases, security advisories, and field notices from Arista. 
+image: https://axbojko.github.io/Newsletter/assets/Cover-Image.png
+---
+
+
+
 ![Image Placememt](img/Arista_Logo_copy.png)
 
 # Arista Southwest Region Newsletter
