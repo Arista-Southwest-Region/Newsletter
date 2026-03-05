@@ -101,7 +101,7 @@ The ZTR process is initiated from Registered Devices under the  Inventory and To
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Feb-26-3.png)
+  ![First Pic](../img/Feb-26-3.png)
   <figcaption>CloudVision Studios - Inventory and Topology Studio, Replace Device </figcaption>
 </figure> 
 
