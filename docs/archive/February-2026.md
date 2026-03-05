@@ -5,7 +5,7 @@ description: Stay up to date with the latest Arista EOS releases, security advis
 
 
 
-![Image Placememt](img/Arista_Logo_copy.png)
+![Image Placememt](../img/Arista_Logo_copy.png)
 
 # Arista Southwest Region Newsletter
 
@@ -78,7 +78,7 @@ ZTR utilizes the ZTP process described in part one of this article. If your devi
 After the replacement device has been successfully installed, cabled and onboarded using ZTP it will appear in CloudVision Studios “Network Updates” under Inventory and Topology Studio, and in the general CloudVision Inventory, where it will remain unconfigured in ZTP mode until a designed configuration has been assigned to the device.
 
 <figure markdown="span">
-  ![First Pic](img/Feb-26-1.png)
+  ![First Pic](../img/Feb-26-1.png)
   <figcaption>CloudVision Studios - Inventory and Topology View</figcaption>
 </figure>  
 
@@ -92,7 +92,7 @@ In this example we want to replace ‘Leaf1’ with the device currently known a
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Feb-26-2.png)
+  ![First Pic](../img/Feb-26-2.png)
   <figcaption>CloudVision - Device Inventory List</figcaption>
 </figure>  
 
@@ -110,7 +110,7 @@ A CloudVision workspace is automatically created and the change control initiate
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Feb-26-4.png)
+  ![First Pic](../img/Feb-26-4.png)
   <figcaption>CloudVision Studios - Workspace Review </figcaption>
 </figure> 
 
@@ -119,7 +119,7 @@ In this example 149 lines of configuration are pushed to the device, 3 lines unt
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Feb-26-5.png)
+  ![First Pic](../img/Feb-26-5.png)
   <figcaption>CloudVision - Change Control </figcaption>
 </figure> 
 
@@ -128,7 +128,7 @@ After successfully completing the  change control stages, ‘sw-192.168.30.175�
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Feb-26-6.png)
+  ![First Pic](../img/Feb-26-6.png)
   <figcaption>CloudVision - Updated Inventory </figcaption>
 </figure> 
 
@@ -182,7 +182,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 --- 
 
 ## __*Software Updates*__
-![Image Placememt](img/software_upgrades_condensed.png)
+![Image Placememt](../img/software_upgrades_condensed.png)
 
 *Stay informed on the latest software updates across all Arista products and services.*
 
@@ -205,7 +205,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 ## __* Security Advisories and Field Notices*__
 
-![Image Placememt](img/Security_image_2.png)
+![Image Placememt](../img/Security_image_2.png)
 
 *Stay informed on the latest platform security and field notice updates.*
 
@@ -227,7 +227,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 ## __* Product Updates*__
 
-![Image Placememt](img/Product_image.png)
+![Image Placememt](../img/Product_image.png)
 
 
 *Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
@@ -254,7 +254,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 ## Have you heard? 
 Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
 
-![Image Placememt](img/ACE.png)
+![Image Placememt](../img/ACE.png)
 
 [Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
 
@@ -265,7 +265,7 @@ Arista has revamped their certifications! The new **Arista Certified Engineer (A
 ---
 ## *Your Southwest Regional Team is Here to Support Your Success.* 
 
-![Image Placememt](img/Arista_Banner.png)
+![Image Placememt](../img/Arista_Banner.png)
 
 
 ---
