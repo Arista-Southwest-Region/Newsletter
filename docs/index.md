@@ -15,24 +15,6 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 
 ---
 
-## Featured Event
-
-<div class="grid cards" markdown>
-
--   __The Future of WAN: Arista VeloCloud Unpacked - April 16th - 10AM PST__ 
-
-    ---
-    Join us for a one hour session focused on VeloCloud as part of the Arista WAN Solutions portfolio. We will show how cloud delivered SD WAN with integrated security extends Arista switching and Wi Fi so you can connect data centers, branches, and campus offices with more choice and better performance. 
-
-    You will hear how VeloCloud fits into Arista’s branch and campus strategy and what this means for both existing customers and new prospects.
-
-    [Sign Up Today!](https://www.arista.com/en/company/news/events){ .md-button target="_blank" }
-
-
-</div>
-
-
----
 
 ## Leadership Perspectives — Recent Blogs from Arista Leadership
 
@@ -70,7 +52,7 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
     
     **Why it matters:** Ask AVA leverages your high-quality data in Arista's Network Data Lake (NetDL) to answer specific questions about your network. Instead of manually correlating MAC addresses and routing tables across different screens, you can simply ask AVA to summarize active network events, generate CPU and memory visualizations, or even run `ping` and `traceroute` commands directly from impacted devices.
     
-    **Pro Tip:** You can enable Ask AVA (currently in Beta) by navigating to the **Settings > Features** tab in your CVaaS tenant. Once enabled, click the **"A"** icon in the top right corner of any CloudVision screen to open the chat interface. If you are logging in after a long weekend, try starting with: *"Show me the active network events and recommend which issues I should address first."
+    **Pro Tip:** You can enable Ask AVA (currently in Beta) by navigating to the **Settings > Features** tab in your CVaaS tenant. Once enabled, click the **"A"** icon in the top right corner of any CloudVision screen to open the chat interface. If you are logging in after a long weekend, try starting with: "Create a list of Events that have occured over the last 24 hours and recommend which events I should address first."
 
     Check out last months Newsletter to learn more about Ask AVA! To view, select "March 2026" in the top left navigation menu.
     </div>
