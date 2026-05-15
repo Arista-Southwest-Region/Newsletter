@@ -9,7 +9,7 @@ description: Stay up to date with the latest Arista EOS releases, security advis
 
 # Arista Southwest Region Newsletter
 
-Welcome to the April 2026 Newsletter for Arista customers in the U.S. Southwest Region! 
+Welcome to the May 2026 Newsletter for Arista customers in the U.S. Southwest Region! 
 
 We welcome your feedback on the newsletter. If you have any ideas or suggestions on how to improve the newsletter, please reach out to [southwest@arista.com](mailto:southwest@arista.com){: target="_blank" }.  
 
@@ -20,17 +20,20 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 
 <div class="grid cards" markdown>
 
--   **AI Datacenters are Reshaping the Optics Industry***
+-   **The Many Facets of AI Fabrics**
+    ---
+    *May 12, 2026: Jayshree Ullal and Hardev Singh dive into the details of AI Fabrics, focusing on scale-up, scale-out, and scale-across concepts as they relate to Back End AI Fabrics.*
+    
+    [Read Blog](https://blogs.arista.com/blog/the-many-facets-of-ai-fabrics){: target="_blank" }
+
+
+-   **AI Datacenters are Reshaping the Optics Industry**
     ---
     *Mar 11, 2026: Andy Bechtolsheim and Vijay Vusirikala introduce XPO (eXtra-dense Pluggable Optics), a revolutionary 12.8 Tbps liquid-cooled module.*
     
     [Read Blog](https://blogs.arista.com/blog/ai-datacenters-are-reshaping-the-optics-industry){: target="_blank" }
 
--   **Powering AI Centers with AI Spines**
-    ---
-    *Feb 12, 2026: Arista is pioneering the new era of AI Centers with the 7800R4. Hear from Arista CEO Jayshree Ullal about how a centralized AI Spine simplifies operations across massive 400G/800G/1.6T Etherlink fabrics.*
-    
-    [Read Blog](https://blogs.arista.com/blog/powering-ai-centers-with-ai-spines){: target="_blank" }
+
 
 
 
@@ -42,7 +45,7 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 ---
 
 
-## Southwest Region Tech Tip of the Month
+## Southwest Region Tech Tip of the Quarter
 
 !!! info "Your new network colleague: Ask AVA"
     <div style="font-size: 1.15em; line-height: 1.5;" markdown>
@@ -64,501 +67,131 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 ---
 ## Featured Articles
 
-### Level Up Your Networking Skills with Arista Academy
-By: Frough Tahiry, Advisory Systems Engineer 
+### Total RF Visibility–Built In
+By: Dang Nguyen, Manager, Systems Engineering 
 <br>
 
-Are you growing tired of studying months for a certification, only to be assessed with a mundane multiple choice exam? Do you wish certification training content and exams were tailored towards what you will actually see in the field, instead of simply testing your ability to memorize terms and functions?
+Wi-Fi is grounded in science—but in practice, it behaves like an art.
+Endless environmental variables make consistent performance difficult to predict and even harder to troubleshoot. There has always been a quest to bring Wi-Fi back to a more predictable science, without the impossible task of deploying engineers to vast sites or even multiple locations. In essence, how to bring more of the science and predictability back into the environment.
 
-Introducing Arista Academy, a platform designed to help you achieve networking expertise by building practical skills that are directly applicable to your day to day tasks. Arista Academy has offered new content and courses earlier this year, with new certifications. The new Arista Academy offers various tracks from fundamentals of networking to advanced concepts of MPLS and automation, so no matter where in your networking career you are, you can find relevant courses and hands-on labs in Arista academy. 
-
-Additionally, Arista Academy offers free classes in the Arista Academy Channels, where you can have access to hundreds of videos on networking. You can navigate to the Arista Academy Channels on the Academy’s website linked below. 
-
-Moreover, Arista Academy also offers live classes with instructor leads and self paced classes. The courses are five days long with digital content  40 hours of hands-on-lab per sub-track and 60 hours lab time for the live classes experience included, which provides users with practical lab guides to complete as part of preparing for the lab based exam. A comprehensive datasheet for each track is available on the academy website.
-
-Below, we will cover the four main tracks of Arista Academy in addition to the Foundations introduction level, and elaborate on the topics covered  in each track. 
+The aspiration of every Wi-Fi administrator is to be everywhere at once, with the ability to do live and even proactive troubleshooting of a technology when required. To gather telemetry everywhere there is an access point would be key to this capability.  For instance, the ability to sniff the RF environment while the endpoint is trying to connect, along with having an actively running separate client perform tests, has been two separate luxuries. The ability to have this in a single device, along with a host of other capabilities, has been on the wishlist of many:
 
 <br>
-**Foundations**
-
-As the name suggests it is an essential point for building your arista expertise. This track starts from core switching all the way to automation, and introduces Arista CloudVision as well as essential security best practices.. This track offers an opportunity to learn about Layer 2 and Layer 3 forwarding , as well as Arista EOS (Extensible Operating System) Architecture with real life examples.  
-
-<br>
-**Data Center**
-
-The Data Center track covers all the design, configuration, and troubleshooting, from basic layer two and three protocols to advanced technologies and tools that keeps a Data Center  running. 
-
-The Data Center track is divided into two sub-tracks:
-
-* **Data Center Engineering:** Covers Layer 2 and Layer 3 configuration via the CLI or CloudVision Studios.
-* **Data Center Operations:** Focuses on Day 2 operations, such as network monitoring and troubleshooting through CloudVision.
-
-*Note: In the self-paced section of the Academy, you will find supplemental content covering advanced topics such as VXLAN, EVPN, and Data Center Interconnection (DCI).*
-
-
-<br>
-**Campus**
-
-This track provides a solid understanding of Arista campus technologies and both wired and wireless architecture. The Campus track is divided into two sub-tracks:
-
-* **Campus Engineering:** This sub-track sheds light on Layer 2 and Layer 3 protocols for wired campuses and the fundamentals of wireless. You will also learn about Arista security solutions and approaches, and how to secure a network end-to-end via the CLI or CloudVision.
-* **Campus Operations:** You will learn all Day 2 operations for wireless networks on CV-CUE and wired networks on CloudVision.
 
 <figure markdown="span">
-  ![First Pic](img/Apr-26-1.png)
-  <figcaption>Example Campus Topology from the Campus Operations Lab Guide</figcaption>
+  ![First Pic](img/May-26-1.png)
+  <figcaption>Multi-Function Radio Capabilities</figcaption>
 </figure> 
 
 <br>
 
-**MPLS WAN**
-<br>
+The ability to deploy this technology cost-effectively without needing to pull in additional resources and create new LAN drops has also been a challenge.
 
-MPLS WAN, also known as Routing, is a  track designed for mid - advanced networking engineers. This track covers advanced concepts of MPLS and Arista's routing technologies and architectures applicable to Data Center, service provider, and edge networks.
+The answer is a radio that performs all these functions in a single device. Arista solves this problem with a dedicated Multifunction Radio or MFR. The key point is that it’s detected, so the full functionality of servicing end wireless devices is never impacted, and neither is the MFR's functionality in a SINGLE access point. Time-sharing radios are a thing of the past, which forces a compromise  between full environmental scanning and servicing wireless clients.
 
-<br>
-
-**Automation**
-<br>
-
-The Automation Track is designed for network engineers, administrators, and automation-focused IT professionals who want hands-on experience with Arista automation. This track discusses the onboarding day 0 to day 2 operations and monitoring.  This track provides students with tools like Git, Jinja, CVP, Python, Ansible, and CloudVision to gain practical skills on building practical automation workflow and learn more about advanced EOS features. 
-
-<br>
-
-Lastly, you can enhance a valid certification by passing exams associated with each track. You can take exams for each sub-track and get a specialist certificate or you can take a test for each track and get a professional certificate. The exam is an assessment of all the concepts covered in each track, and a test of your practical skills. The exams are a hands-on lab exam for each certification and open book in a virtual environment, showing how Arista values real hands-on learning as opposed to a multiple choice based assessment. 
+Arista’s MFR integrates this functionality into each access point, enabling the prolific and persistent capability to capture wireless traffic, perform full-time RRM scanning, spectrum analysis, client simulation testing, neighbor Access Point discovery, location sensing, and, yes, full-time wireless detection and prevention (WIPS).
 
 
-To learn more about Arista Academy, click on the link below. 
+There is quite a bit to unpack here, but a key consideration is background scanning, which is what access points without an MFR provide at the expense of servicing wireless client traffic. There is much detail around Off-channel Scan Interval (OCSI),  Channel Scan Duration (CSD), and Number of Channels to Scan (NCS) = Cycle Time (CT), but this chart paints the picture of the impact of one over the others.
 
-* [Arisa Academy](https://www.training.arista.com/ ){ target="_blank" }
+| Background Scanning Cycle Times <br> (OCSI + CSD) x NCS = CT | Multifunction Radio Scanning <br> (CST + CSD) x NCS = CT |
+| :--- | :--- |
+| 2.4 GHz Cycle Time = **~ 7 minutes** | 2.4 GHz + 5 GHz + 6 GHz = **~ 16 seconds** |
+| 5 GHz Cycle Time = **~ 19 minutes** | |
+| 6 GHz Cycle Time = **~ 30 minutes** | |
+| **~ 30 minutes (longest band Cycle Time)** vs. | **~ 16 seconds** |
 
+Among the many capabilities the MFR impacts, one of the most critical is WIPS. Additionally, background or time-sliced scanning will leave gaps in the information gathered, which is critical for detecting attacks or general instructions, much less a wireless one. Surveillance cameras are a great example of this. These are tasked with continuously observing an area, twenty-four hours a day, seven days a week. Not just a segment, and even worse yet, timed segments of the time. A savvy attacker, especially an AI-enabled one, can easily identify times when the camera is “off duty”. This is practically impossible if the camera, in our case, the WIPS radio, is on all the time.
+
+All these capabilities detailed here are available from Arista’s Cognitive Wi-Fi solution, specifically from the integrated MultiFunction Radio. 
+
+To find out more about this and what we can bring to, what is arguably the most important way to connect, please see the links below. 
+
+* [Arista Cognitive Wi-Fi](https://solutions.arista.com/wifi_freetrial?utm_source=google&utm_medium=cpc_usQ124&utm_campaign=Q4_2023_Wi-Fi_Free_AP_Direct&utm_term=access%20point&utm_campaign=Arista+WiFi+Q124&utm_source=adwords&utm_medium=ppc&hsa_acc=8254094415&hsa_cam=20978126766&hsa_grp=158407706876&hsa_ad=689405474859&hsa_src=g&hsa_tgt=kwd-10826031&hsa_kw=access%20point&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20978126766&gbraid=0AAAAACqXyTcdijDilkfhPqr4cBnddbxi8&gclid=CjwKCAjwntHPBhAaEiwA_Xp6RtnvIMnDAQrGy6NGwUhL-x9L_7dxiEHzNCXEz4f5TNWb-SVJDZehyhoCPpsQAvD_BwE ){ target="_blank" }
+
+* [Troubleshooting Wi-Fi](https://www.arista.com/en/ug-cv-cue/cv-cue-troubleshooting-wi-fi){ target="_blank" }
+
+* [Client Connectivity Testing](https://www.arista.com/en/ug-cv-cue/cv-cue-client-connectivity-test-using-a-multi-radio-access-point ){ target="_blank" }
+
+* [Digital Experience Monitoring](https://www.youtube.com/watch?v=_odv4OAgoZE ){ target="_blank" }
+
+* [Clear to Send Talk on the MFR](https://www.cleartosend.net/cts-319-multi-function-radio-with-arista-networks-sponsored/ ){ target="_blank" }
 
 
 ---
  
 
-### Using AVD-Generated CloudVision Campus Tags with Static Studios
-By: Nick D'ambrosio, Advisory Systems Engineer 
-
-> **Audience:** Campus Network Operators & Automation Engineers  
-> **Scope:** Day-1 (AVD) + Day-2 (CloudVision Operations)  
-> **Validated on:** CVaaS / CloudVision 2024.3+
-
-> **TL;DR**  
-> This repository documents a practical Campus workflow where **AVD-generated CloudVision Campus tags** act as the integration point between **Day-1 automation** and **Day-2 operations**.  
->
-> AVD builds and maintains the campus fabric, while CloudVision consumes those tags to drive **Campus topology, Network Hierarchy, Static Studios, and Quick Actions**, enabling operators to safely manage port profiles and operational changes through the UI without breaking automation intent.
-
-When deploying Campus fabrics with Arista AVD, a common challenge is determining how to cleanly integrate...
-
-
-This repository documents a real-world, customer-inspired workflow that uses **AVD-generated CloudVision Campus tags** as the contract between these two domains.
-
-By generating and applying Campus tags directly from AVD, CloudVision can:
-
-- Render accurate Campus topology views
-- Dynamically place devices into Studio container hierarchies
-- Enable clean configlet inheritance without device-level assignments
-- Support a hybrid operational model where AVD and Studios coexist
-
-In this model:
-
-- **AVD** is responsible for building and maintaining the Campus fabric and infrastructure
-- **CloudVision Studios** are leveraged for topology visualization, container-based configuration, and ongoing day-2 operations
-
-This guide walks through the architecture, tag generation, Studio container hierarchy, and configlet inheritance model using screenshots from a working lab environment.
-
+### Network Hardware for the Future
+By Morten Sefeld and Alex Bojko, System Engineers, Southwest Region 
 
 <br>
-**High-Level Architecture**
 
-![Campus Topology Overview](img/apr-26-2.png)
-
-Figure 1 – Campus fabric topology generated and tagged by AVD
-
+Network hardware is constantly evolving to meet the ever-changing needs of modern networks and the businesses they serve. In this article, we will discuss two unique ways in which Arista is producing hardware to meet its customers' expectations. We will first discuss the new, high-powered 12.8 Tbps liquid-cooled optic, followed by the new CCS-710HXP series ruggedized, fanless, PoE switches. 
 
 <br>
-**Overview**
 
-The `arista.avd.eos_designs` role can generate **CloudVision Tags** that are applied to devices and interfaces during fabric deployment. These tags are used by CloudVision to:
+**XPO Optical Module**
 
-- Render accurate **Campus Topology views**
-- Enable **tag-based searches and filters**
-- Dynamically place devices into **Studio container hierarchies**
-- Support **hybrid AVD + Studios workflows**
-
-This functionality is supported on:
-
-- **CloudVision as a Service (CVaaS)**
-- **On-prem CloudVision 2024.3.0 or later**
-
+Arista recently presented the XPO (eXtra-dense Pluggable Optics) at the 2026 OFC conference in Los Angeles. The revolutionary 12.8 Tbps optical module is designed to meet the extreme bandwidth and thermal demands of next-generation AI networking. Each module delivers 12.8 Tbps across 64 electrical lanes, each at 200 Gbps. Compared to traditional OSFP 1.6TB optics, the XPO module achieves a fourfold increase in modular, mix-and-match front-panel density, enabling a single-rack-unit switch to reach a massive 204.8 Tbps capacity.
 
 <br>
-**Documentation References**
+<figure markdown="span">
+  ![First Pic](img/May-26-2.png)
+  <figcaption>Comparison of XPO to OSFP, highlighting the density improvement of XPO compared to 8X OSFP</figcaption>
+</figure> 
+<br>
 
-- CloudVision Tags (AVD):  
-  <https://avd.arista.com/5.7/ansible_collections/arista/avd/roles/eos_designs/docs/how-to/cloudvision-tags.html>
-
-- Static Configuration Studio Deployment:  
-  <https://avd.arista.com/5.7/ansible_collections/arista/avd/roles/cv_deploy/index.html#static-configuration-studio-deployment>
-
-- Access Interface Configuration Studio (Quick Actions):  
-  <https://www.arista.io/help/articles/provisioning-studios-built-in-access-interface#access-interface-configuration-studio>
-  
+To ensure market adoption, standardization, and to address critical performance bottlenecks in AI-scale data center infrastructure, Arista organized the XPO Multi-Source Agreement (MSA), which has rapidly expanded from 40 founding members to over 100 major industry partners. This open ecosystem ensures continued development, standardization, and optics universality. XPO supports any optics solution available today or in development, including 1600G-DR, FR, LR, SR, ZR, ZR+, Coherent-Lite, and next-generation 16- and 32-channel photonics designs.
 
 <br>
-**Enabling CloudVision Tag Generation**
+<figure markdown="span">
+  ![First Pic](img/May-26-3.png)
+  <figcaption>Illustration of a 204.8Tbps switch with XPO (top) and OSFP (bottom), showing the 4X density improvement</figcaption>
+</figure> 
+<br>
 
-To globally enable CloudVision tag generation for Campus fabrics, both of the following settings must be enabled:
-
-```yaml
-generate_cv_tags:
-  topology_hints: true
-  campus_fabric: true
-```
-
-These options allow AVD to generate the metadata required for:
-
-- Campus topology rendering
-- CloudVision Network Hierarchy UI activation
-- Studio-based workflows
-
+A defining feature is the integrated liquid-cooled cold plate, which handles power consumption exceeding 400W. By bringing liquid cooling directly inside the module, XPO keeps components around 70°F cooler than traditional air-cooled systems, which is critical for maintaining reliability in high-intensity AI workloads. 
 
 <br>
-**CloudVision Network Hierarchy**
 
-![Campus Network Hierarchy UI](img/apr-26-3.png)
+**710HXP Ruggedized Switch Series**
 
-Figure 2 – CloudVision Network Hierarchy UI activated by Campus tags
+There has been a longstanding need for switches that can handle a wide range of conditions found outside typical IDF rooms. Various environmental factors like temperature ranges from sub zero to scorching hot, dusty conditions, vibrations, and shocks are all factors that must be addressed when designing such a device.
 
+Arista has developed the 710HXP series switch to meet the needs of a device exposed to the wide ranges of environmental factors discussed above. The 710HXP is a ruggedized platform currently designed in two form factors. The following section provides details and images of both form factors:
 
-<br>
-**Campus Tag Variables**
+| Specification | 710HXP-28TXH | 710HXP-20TNH-4S |
+| :--- | :--- | :--- |
+| **Switch Type** | 1RU 24-port switch | 20-port Din Rail Switch |
+| **Port Configuration** | 24x 1G 60W PoE <br> 4x 10 mGig 90W PoE <br> 4x10G SFP+ | 16x 1G 30W PoE <br> 4x 5 mGig 90W PoE <br> 4x10G SFP+ |
+| **Cooling** | Fanless switch | Fanless switch |
+| **Power Supply** | 2 x 400W AC/HVDC | 480W AC (external) or 290W DC (external) |
+| **Industrial Rating** | IP30 rating for industrial environments | IP50 rating for industrial environments |
+| **Mounting** | Standard rack-mountable form factor | Din Rail mounting for industrial installations |
 
-AVD assigns CloudVision tags using fabric variables or node_type_keys.
-The following variables are supported for Campus deployments:
-
-| Variable                | Description                                       |
-| ----------------------- | ------------------------------------------------- |
-| `campus`                | Logical campus name                               |
-| `campus_pod`            | Building or campus pod                            |
-| `campus_access_pod`     | Access pod / IDF (not assigned to spines)         |
-| `cv_tags_topology_type` | Campus node type (`spine`, `leaf`, `member-leaf`) |
-
+Both the rack-mount 710HXP-28TXH-4S and DIN rail 710HXP-20TNH-4S models deliver comprehensive PoE capabilities, advanced networking features through Arista EOS, and flexible deployment options—all while maintaining the operational consistency that makes Arista's Cognitive Campus architecture so powerful. These switches bring enterprise-grade networking capabilities to factory floors, outdoor installations, and other harsh environments.
 
 <br>
-**Example: Fabric Tag Assignment**
+<figure markdown="span">
+  ![First Pic](img/May-26-4.png)
+  <figcaption>DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply</figcaption>
+</figure> 
+<br>
 
-L3 Spine Configuration
-
-```yaml
-l3spine:
-  defaults:
-    campus: AVD_CAMPUS
-    campus_pod: BUILDING_A
-  node_groups:
-    - group: SPINES
-      cv_tags_topology_type: spine
-```
-
-L2 Leaf Configuration
-
-```yaml
-l2leaf:
-  defaults:
-    campus: AVD_CAMPUS
-    campus_pod: BUILDING_A
-  node_groups:
-    - group: IDF1
-      cv_tags_topology_type: leaf
-      campus_access_pod: IDF1
-    - group: IDF2
-      cv_tags_topology_type: leaf
-      campus_access_pod: IDF2
-    - group: IDF3
-      cv_tags_topology_type: leaf
-      campus_access_pod: IDF3
-    - group: IDF3_3C
-      cv_tags_topology_type: member-leaf
-      campus_access_pod: IDF3
-```
-
+A standout feature of these switches is Cognitive Continuous PoE, which enables powering downstream devices even when the system is rebooted on a per-port basis. The high-power 90W ports are designed for next-generation devices such as Wi-Fi 7 access points and high-powered outdoor security cameras, further showing how these devices are designed to address changes and the overall evolution of networks for years to come.
 
 <br>
-**CloudVision Tags Applied to Devices**
-
-![Campus Generagted CV Tags](img/apr-26-4.png)
-
-Figure 3 – CloudVision device view showing AVD-generated Campus tags
-
-
+<figure markdown="span">
+  ![First Pic](img/May-26-5.png)
+  <figcaption>1RU rack mount: Arista CCS-710HXP-28TXH-4S</figcaption>
+</figure> 
 <br>
-**Static Configuration Studio Using a Config Manifest**
 
-A Static Configuration Studio can consume the CloudVision tags generated by AVD using a cv_static_config_manifest.
+Arista will continue to design and develop products that meet the needs of an ever-changing network. To learn more about the XPO optical modules and the 710HXP series switches, click the links below:
 
-The manifest:
+* [XPO Optical Module Whitepaper](https://www.arista.com/assets/data/pdf/Whitepapers/XPO-Whitepaper.pdf){ target="_blank" }
 
-- Reads tags applied by arista.avd.eos_designs
-- Uses tag_query expressions to dynamically place devices
-- Builds a container hierarchy based on Campus structure
-- Applies configlets to containers and inherited devices
-
-
-<br>
-**Example Static Config Manifest**
-
-```yaml
-cv_static_config_manifest:
-  configlets:
-    - name: Building_A_Banner
-      file: configlets/Building_A_Banner.cfg
-
-  containers:
-    - name: ZZZ_AVD_CAMPUS
-      description: AVD generated Campus Tag Hierarchy
-      tag_query: "Campus:AVD_CAMPUS"
-      match_policy: match_all
-
-      sub_containers:
-        - name: BUILDING_A
-          description: Building A
-          tag_query: "Campus-Pod:BUILDING_A"
-          match_policy: match_all
-          configlets:
-            - name: Building_A_Banner
-
-          sub_containers:
-            - name: IDF1
-              description: IDF 1
-              tag_query: "Access-Pod:IDF1"
-              match_policy: match_all
-            - name: IDF2
-              description: IDF 2
-              tag_query: "Access-Pod:IDF2"
-              match_policy: match_all
-            - name: IDF3
-              description: IDF 3
-              tag_query: "Access-Pod:IDF3"
-              match_policy: match_all
-```
-
-
-<br>
-**Static Studio Container Hierarchy**
-
-![Campus Studio Container Hierarchy](img/apr-26-5.png)
-
-Figure 4 – Static Configuration Studio containers built from tag queries
-
-
-<br>
-**Deploying the Manifest with `cv_deploy`**
-
-```yaml
-tasks:
-  - name: Deploy CloudVision configuration
-    ansible.builtin.import_role:
-      name: arista.avd.cv_deploy
-    vars:
-      ## Deploy full hierarchy of containers and configlets into CloudVision “Static Configuration Studio”
-      cv_static_config_manifest:
-        configlets:
-          - name: "Building_A_Banner"
-            file: configlets/Building_A_Banner.cfg
-        containers:
-          - name: ZZZ_AVD_CAMPUS
-              description: "AVD generated Campus Tag Heiarchy"
-              tag_query: "Campus:AVD_CAMPUS"
-              match_policy: "match_all"
-              sub_containers:
-              - name: BUILDING_A
-                  description: "Build A"
-                  tag_query: "Campus-Pod:BUILDING_A"
-                  match_policy: "match_all"
-                  configlets:
-                  - name: "Building_A_Banner"
-                  sub_containers:
-                  - name: IDF1
-                      description: "IDF 1"
-                      tag_query: "Access-Pod:IDF1"
-                      match_policy: "match_all"
-                  - name: IDF2
-                      description: "IDF 2"
-                      tag_query: "Access-Pod:IDF1"
-                      match_policy: "match_all"
-                  - name: IDF3
-                      description: "IDF 3"
-                      tag_query: "Access-Pod:IDF1"
-                      match_policy: "match_all"
-```
-
-AVD performs the following actions:
-
-- Uploads configlets into the Configlet Library
-- Creates the Studio container hierarchy
-- Places devices based on tag queries
-- Applies configlets to all matching devices
-
-
-<br>
-**Root Container Ordering Behavior**
-
-When deploying or adding new root containers, the `cv_deploy` role places all AVD-managed root containers at the top of the Studio container tree.
-
-**Note**
-This automated behavior may reorder containers that were manually arranged in the UI.
-
-
-<br>
-**Configlet Inheritance Example**
-
-This section illustrates how **AVD manages configlets** and how those configlets are inherited by devices through a **Static Configuration Studio container hierarchy**.
-
-The workflow is as follows:
-
-1. AVD references a raw `.cfg` configlet file from the repository.
-2. The configlet is declared in the `configlets` section of the Static Studio manifest.
-3. The configlet is associated with the appropriate container in the manifest hierarchy.
-4. CloudVision applies the configlet to all devices that match the container’s tag query.
-
-
-<br>
-**AVD Configlet Declaration in the Manifest**
-
-![AVD Code Configlet Into Manifest](img/apr-26-6.png)
-
-AVD references the raw configuration file and includes it in the manifest so it can be managed by CloudVision.
-
-
-<br>
-**Configlet Deployed to the CloudVision Library**
-
-![Configlet Applied Into CV Library](img/apr-26-7.png)
-
-During the `cv_deploy` phase, AVD uploads the configlet into the CloudVision Configlet Library.
-
-
-<br>
-**Configlet Associated with the Studio Container**
-
-![Configlet Associated to Container](img/apr-26-8.png)
-
-The configlet is attached to a Static Studio container.  
-All devices assigned to this container automatically inherit the configlet.
-
-
-<br>
-**Summary**
-
-By combining:
-
-- AVD-generated CloudVision Campus tags
-- Static Studio manifests
-- Tag-based container placement
-
-You gain a scalable, deterministic, and supportable integration between AVD and CloudVision Studios, while maintaining clear ownership boundaries between build-time automation and day-2 operations.
-
-<br>
-**Day-2 Operations (CloudVision Campus)**
-
-This section focuses on **Day-2 operational workflows** using the **CloudVision Campus UI**, with emphasis on how network operators interact with the platform *after* Day-1 provisioning has been completed by AVD.
-
-Unlike Day-1 automation, where AVD is the source of truth, Day-2 operations leverage **CloudVision Studios, Network Hierarchy, and Quick Actions** to safely make operational changes at scale.
-
-- Access Interface Configuration Studio (Quick Actions):  
-  <https://www.arista.io/help/articles/provisioning-studios-built-in-access-interface#access-interface-configuration-studio>
-
-
-<br>
-**Entry Point: Campus Health Overview**
-
-For network operators assigned a **Campus profile**, the default landing page after logging into CloudVision is the **Campus Health Overview** dashboard.
-
-This dashboard provides:
-
-- High-level campus health status
-- Visibility into wired and wireless domains
-- Direct navigation into Campus-specific operational workflows
-
-<!-- Image: Campus Health Overview Dashboard -->
-
-![Campus Health Quick Actions](img/apr-26-9.png)
-
-From this view, operators can quickly pivot from monitoring to action without navigating away from the Campus workflow context.
-
-
-<br>
-**Navigating the Network Hierarchy**
-
-From the **Campus Health Overview**, operators can navigate to the **Network Hierarchy UI**, which represents the logical campus structure built using **AVD-generated CloudVision Campus tags and containers**.
-
-The Network Hierarchy enables operators to:
-
-- View sites, buildings, floors, and other logical groupings
-- Understand configuration and policy inheritance scopes
-- Target operational changes with precision and confidence
-
-Quick Actions menus are accessible **per container**, directly reflecting the underlying **tag-based hierarchy** created during Day-1 deployment.
-
-Within the Quick Actions workflow, the UI presents a **front-panel view of the switch**, allowing operators to **single-select or multi-select switchports** and assign them to predefined port profiles.
-
-![Campus Network Hierarchy Quick Actions](img/apr-26-10.png)
-
-Because configuration and policies are associated at the container level, hierarchy placement directly determines what devices inherit.
-
-
-<br>
-**Quick Actions: Operational Changes at Scale**
-
-Within the Campus workflow, operators can launch **Quick Actions** directly from the Campus dashboards or Network Hierarchy views.
-
-One of the most common Day-2 use cases is **setting or updating switch port profiles**.
-
-Quick Actions allow operators to:
-
-- Select one or more devices or ports
-- Apply predefined port profiles
-- Execute changes without modifying AVD source files
-
-<br>
-**Example: Applying Switch Port Profiles**
-
-Using Quick Actions, an operator can:
-
-1. Select a container, device, or specific interfaces
-2. Choose the appropriate **Switch Port Profile**
-3. Review the proposed change
-4. Execute the action through CloudVision
-
-This workflow ensures:
-
-- Consistency across the campus
-- Reduced operational risk
-- Fast response to Day-2 requirements
-
-<!-- Image: Quick Actions Port Profile Selection -->
-
-![Quick Actions Port Profile](img/apr-26-11.png)
-
-
-<br>
-**Key Takeaways for Day-2 Operations**
-
-- **AVD remains the Day-1 source of truth**
-- **CloudVision enables controlled Day-2 changes**
-- Network Hierarchy and tags define operational scope
-- Quick Actions provide safe, repeatable workflows for operators
-
-This separation allows infrastructure teams to maintain strong automation discipline while empowering operations teams with the flexibility required for daily campus management.
-
-
-<br>
-**About This Repository**
-
-This repository contains personal lab work and reference material created to explore hybrid AVD and CloudVision Campus workflows.  
-
-It is not official Arista documentation or a supported design guide.
+* [710HXP Series Switches](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710HXP-Datasheet.pdf ){ target="_blank" }
 
 
 ---
@@ -598,9 +231,9 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.36.0F <br> 4.35.3.1F <br> 4.35.3F <br> 4.23.10M | April 9th, 2026 <br> April 8th, 2026 <br> March 20th, 2026 <br> March 2nd, 2026 |
+| __EOS__           | 4.33.8M <br> 4.22.11M <br> 4.34.6M <br> 4.35.4M | May 12th, 2026 <br> May 6th, 2026 <br> May 6th, 2026 <br> May 23rd, 2026 |
 | __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
-| __DMF__           | 8.6.3 | March 18th, 2026 |
+| __DMF__           | 8.10.0 | April 22nd, 2026 |
 | __CV-CUE__         | 21.0.0 | January 16th, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
 | __TerminAttr__     | 1.42.1 | February 4th, 2026 |
@@ -617,13 +250,17 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 ![Image Placememt](img/Security_image_2.png)
 
-*Stay informed on the latest platform security and field notice updates.*
+*Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
 
 ### **Security Advisories**
-* **runC** — [Security Advisory 0135](https://www.arista.com/en/support/advisories-notices/security-advisory/23784-security-advisory-0135){: target="_blank" } <br> *(April 7th, 2026)*
+* **Dirty Frag Vulnerability** — [Security Advisory 0138](https://www.arista.com/en/support/advisories-notices/security-advisory/24019-security-advisory-0138){: target="_blank" } <br> *(May 8th, 2026)*
+* **Tunnel Decapsulation Configuration** — [Security Advisory 0137](https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137){: target="_blank" } <br> *(May 5th, 2026)*
+* **Copy Fail Vulnerability** — [Security Advisory 0136](https://www.arista.com/en/support/advisories-notices/security-advisory/24004-security-advisory-0136){: target="_blank" } <br> *(May 1st, 2026)*
 
 ### **Field Notices**
-* **CV-CUE Release Process** — [Field Notice 0125](https://www.arista.com/en/support/advisories-notices/field-notice/23698-field-notice-0125){: target="_blank" } <br> *(March 11th, 2026)*
+* **CloudEOS Pay As You Go** — [Field Notice 0128](https://www.arista.com/en/support/advisories-notices/field-notice/24021-field-notice-0128){: target="_blank" } <br> *(May 11th, 2026)*
+* **Default Option Change in the Access Point Upgrade Feature in CV-CUE** — [Field Notice 0127](https://www.arista.com/en/support/advisories-notices/field-notice/24016-field-notice-0127){: target="_blank" } <br> *(May 5th, 2026)*
+* **TerminAttr** — [Field Notice 0126](https://www.arista.com/en/support/advisories-notices/field-notice/24003-field-notice-0126){: target="_blank" } <br> *(May 4th, 2026)*
 
 <br>
 
@@ -643,11 +280,8 @@ Click on the boxes below to be directed to Arista's website for additional lists
 ### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **April 10th, 2026** — [CloudVision Portal 2024.3 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23791-end-of-software-support-for-cloudvision-portal-2024-3-release-train){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-36S Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23790-end-of-sale-of-the-arista-dcs-7280cr3k-36s-series){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-48YC8 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23789-end-of-sale-of-the-arista-dcs-7280sr3k-48yc8-series){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-32P4, DCS-7280CR3K-32D4, DCS-7280CR3MK-32P4 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23788-end-of-sale-of-the-arista-dcs-7280cr3k-32p4-dcs-7280cr3k-32d4-and-dcs-7280cr3mk-32p4-series){: target="_blank" }
-* **March 13th, 2026** — [EOS-4.30 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23728-end-of-software-support-for-eos-4-30){: target="_blank" } 
+* **May 15th, 2026** — [VeloCloud Security VNF Services](https://www.arista.com/en/support/advisories-notices/end-of-support/24027-end-of-availability-for-velocloud-security-vnf-services){: target="_blank" } 
+
 
 <br>
 
@@ -659,7 +293,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 ---
 
-## Don't Forget! 
+## Did You Know? 
 Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
 
 ![Image Placememt](img/ACE.png)
