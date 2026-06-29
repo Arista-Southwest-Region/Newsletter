@@ -213,7 +213,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 <br>
 
-[View All Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
+[View All of the Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
 
 
 ---
