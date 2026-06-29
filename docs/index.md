@@ -102,7 +102,7 @@ At the heart of the Tech Library are meticulously engineered Design and Deployme
 
 Arista bridges the gap between theory and practice through new "Tech Library Labs". When reviewing a complex Deployment Guide topology, users don’t have to guess if their configuration will work. With a single click, engineers can instantiate a fully virtualized, pre-configured lab environment that mirrors the exact documentation topology. 
 
-This hands-on sandbox allows you to safely test features, practice hitless upgrades, and validate automation scripts using virtual Extensible Operating System (vEOS) or containerized EOS (cEOS) instances before touching production hardware.
+This hands-on sandbox allows you to take topics discussed in the deployment guides and practice implimenting those exact configuration changes using containerized EOS (cEOS) instances, before touching production hardware.
 
 <br>
 
