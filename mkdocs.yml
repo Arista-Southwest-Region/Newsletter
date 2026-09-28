@@ -55,6 +55,7 @@ extra_css:
 nav:
   - "Current Newsletter": index.md
   - "Past Newsletters":
+      - "August 2026": archive/August-2026.md
       - "June 2026": archive/June-2026.md
       - "May 2026": archive/May-2026.md
       - "April 2026": archive/April-2026.md
