@@ -58,7 +58,7 @@
     color: rgba(0, 74, 153, 0.8) !important;
 }
 
-.md-nav__link--active, 
+.md-nav__link--active,
 .md-nav__link:hover {
     color: #004a99 !important;
     font-weight: bold;
@@ -101,19 +101,19 @@
 
 /* --- 4. TECH TIP (ADMONITIONS) --- */
 
-.md-typeset .admonition.info, 
+.md-typeset .admonition.info,
 .md-typeset details.info {
     border: 1px solid #004a99;
     border-left-width: 4px;
 }
 
-.md-typeset .admonition-title, 
+.md-typeset .admonition-title,
 .md-typeset summary {
     background-color: #004a99 !important;
     color: #ffffff !important;
 }
 
-.md-typeset .admonition-title::before, 
+.md-typeset .admonition-title::before,
 .md-typeset summary::before {
     background-color: #ffffff !important;
     -webkit-mask-image: var(--md-admonition-icon--info);
@@ -125,12 +125,12 @@
 .md-top {
     background-color: #004a99;
     color: #ffffff !important;
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    transition: background-color 0.3s ease;
 }
 
 /* Lighter Arista Blue hover state */
 .md-top:hover {
-    background-color: #1a6bc2 !important; 
+    background-color: #1a6bc2 !important;
 }
 
 .md-top svg {
@@ -177,51 +177,61 @@
     background-color: rgba(0, 74, 153, 0.05) !important;
 }
 
-/* --- 7. IMAGE RENDERING (ANTI-BLUR) --- */
+/* --- 7. IMAGE RENDERING & ASPECT RATIO PROTECTION --- */
 
+/* Preserve intrinsic image size; shrink only when the content area is narrower.
+   Leave resampling to the browser instead of forcing a rendering algorithm. */
 .md-typeset img {
-    image-rendering: -webkit-optimize-contrast !important; /* Safari/Chrome */
-    image-rendering: crisp-edges !important;               /* Firefox */
-    -ms-interpolation-mode: nearest-neighbor;               /* IE */
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    image-rendering: auto;
 }
 
-/* --- 8. NEWSLETTER CONTENT FORMATTING --- */
+/* --- 8. NEWSLETTER CONTENT & FIGURE FORMATTING --- */
 
 /* Force terminal text to wrap without splitting words */
 .md-typeset pre code {
-    white-space: pre-wrap !important;       /* Wraps text to the next line */
-    word-break: break-word !important;      /* Only breaks at spaces/hyphens if possible */
-    word-wrap: break-word !important;       /* Legacy support */
-    overflow-x: hidden !important;          /* No horizontal scrolling */
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-x: hidden !important;
     display: block;
 }
 
-/* Target the figure container to remove internal padding */
+/* Use flex layout for figures and keep them within the content area */
 .md-typeset figure {
-    margin-top: 1em;    /* Space above the image */
-    margin-bottom: 1em; /* Space below the caption */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 1.5em auto !important;
+    max-width: 100% !important;
 }
 
-/* Remove bottom margin from the image itself */
+/* Keep figure images proportional and within the available width */
 .md-typeset figure img {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
     margin-bottom: 0 !important;
-    display: block; /* Removes tiny descender gap */
+    display: block;
 }
 
-/* Tighten image captions */
+/* Image captions */
 .md-typeset figure figcaption {
-    margin-top: -10px !important; 
+    margin-top: 8px !important;
     padding-top: 0 !important;
     font-style: italic;
     font-size: 0.9em;
     color: #666;
+    text-align: center;
 }
 
 /* --- 9. MOBILE RESPONSIVENESS --- */
 
 @media screen and (max-width: 45em) {
     .md-typeset__table {
-        overflow-x: visible !important; 
+        overflow-x: visible !important;
         display: block !important;
     }
 
@@ -231,7 +241,7 @@
         min-width: 100% !important;
     }
 
-    .md-typeset td, 
+    .md-typeset td,
     .md-typeset th {
         font-size: 0.60rem !important;
         padding: 4px 2px !important;
