@@ -69,7 +69,7 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 ---
 ## Featured Articles
 
-###  Integrated Packet Capture for Modern Arista Networks
+###  How to Discover and Remediate CVEs with No Impact to the Network Using CloudVision
 By: Alex Bojko, Advisory Systems Engineer
 <br>
 
@@ -114,7 +114,7 @@ Events are generated when criteria for a specific issue is met, and are visible 
 </figure> 
 
 <br>
-We have the ability to configure alerting to 3rd party receivers when a new event impacts one or all of our devices (see screenshot below for list of 3rd party integrations). For this case, we will need to configure event notifications for "CVE Exposure" 
+We have the ability to configure alerting to 3rd party receivers when a new event impacts one or all of our devices (see screenshot below for list of 3rd party integrations). For this case, we will need to configure event notifications for "CVE Exposure." 
 
 <br>
 
@@ -152,6 +152,7 @@ Knowing exactly when a new CVE is detected on a device is very powerful, but tha
 Under the Device tab, CloudVision has a built in "Compliance Dashboard" that details CVE's, Bugs, Configuration and Image Compliance, and End of Sale and Software Support information. 
 
 It is here, within the CVE and Bug section, where we can find a list detailing:
+
 - CVE ID
 - Severity Level
 - Description
@@ -184,7 +185,7 @@ Armed with this information, we can move on and ask this question:
 
 Here's where things get very interesting. Not only can CloudVision be used to orchestrate EOS software upgrades, we can orchestrate them in such a way so that they are hitless (completely invisible to end hosts with no impact to the network). 
 
-Once we have identified the target version of EOS to upgrade to in order to remediate the CVE impact, we can then leverage the Software Management Studio within the Provisioning tab of CloudVision to download the EOS image and assign it to a single device or group of devices. 
+Once we have identified the target version of EOS to upgrade to in order to remediate the CVE impact, we can then leverage the Software Management Studio to orchestrate the image upgrade.  The Studio is located within the Provisioning tab of CloudVision, and allows us to download the EOS image and assign it to a single device or group of devices all without leaving CloudVision. Gone are the days of navigating to the software download portal, downloading the .swi image to a USB stick, and manually upgrading switch by switch!
 
 For more information on the software management studio, see the following link: [CloudVision Software Management Studio](https://www.arista.io/help/articles/provisioning-studios-built-in-software){: target="_blank" }.
 
