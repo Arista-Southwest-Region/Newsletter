@@ -199,8 +199,6 @@ For more information on the software management studio, see the following link: 
 
 <br>
 
-
-
 Once assigned, we submit the workspace in Studios and navigate to the prompted Change Control tab. Before executing, we must specify this upgrade as a SSU (Smart System Upgrade) in order to upgrade in a hitless fashion. We can do this using one of two methods, using a preconfigured change control template or via the Device Arguments section.
 
 Leveraging a hitless upgrade using a preconfigured Change Control Template is shown below. The template is the ideal approach, providing you with pre-set stages where Snapshots, or outputs of various show commands, can be integrated into the change control, as well as automatically designating the device for a hitless SSU upgrade. 
