@@ -9,7 +9,7 @@ description: Stay up to date with the latest Arista EOS releases, security advis
 
 # Arista Southwest Region Newsletter
 
-Welcome to the September 2026 Newsletter for Arista customers in the U.S. Southwest Region! 
+Welcome to the August 2026 Newsletter for Arista customers in the U.S. Southwest Region! 
 
 We welcome your feedback on the newsletter. If you have any ideas or suggestions on how to improve the newsletter, please reach out to [southwest@arista.com](mailto:southwest@arista.com){: target="_blank" }.  
 
