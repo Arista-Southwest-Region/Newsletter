@@ -329,10 +329,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#integrated-packet-capture-for-modern-arista-networks" class="md-nav__link">
+  <a href="#how-to-discover-and-remediate-cves-with-no-impact-to-the-network-using-cloudvision" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Integrated Packet Capture for Modern Arista Networks
+        How to Discover and Remediate CVEs with No Impact to the Network Using CloudVision
       
     </span>
   </a>
@@ -820,10 +820,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#integrated-packet-capture-for-modern-arista-networks" class="md-nav__link">
+  <a href="#how-to-discover-and-remediate-cves-with-no-impact-to-the-network-using-cloudvision" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Integrated Packet Capture for Modern Arista Networks
+        How to Discover and Remediate CVEs with No Impact to the Network Using CloudVision
       
     </span>
   </a>
@@ -1013,7 +1013,7 @@ Ever tried to troubleshoot a transient network issue that happened at 3:00 AM, l
 </div>
 <hr />
 <h2 id="featured-articles">Featured Articles<a class="headerlink" href="#featured-articles" title="Permanent link">&para;</a></h2>
-<h3 id="integrated-packet-capture-for-modern-arista-networks">Integrated Packet Capture for Modern Arista Networks<a class="headerlink" href="#integrated-packet-capture-for-modern-arista-networks" title="Permanent link">&para;</a></h3>
+<h3 id="how-to-discover-and-remediate-cves-with-no-impact-to-the-network-using-cloudvision">How to Discover and Remediate CVEs with No Impact to the Network Using CloudVision<a class="headerlink" href="#how-to-discover-and-remediate-cves-with-no-impact-to-the-network-using-cloudvision" title="Permanent link">&para;</a></h3>
 <p>By: Alex Bojko, Advisory Systems Engineer
 <br></p>
 <p>As network infrastructures scale and cyber threats evolve at ever increasing speeds, maintaining a hardened security posture is no longer a feasible manual exercise. </p>
@@ -1044,7 +1044,7 @@ Arista provides not one, but two powerful, automated workflows to streamline thi
 <figcaption>CloudVision Events Page</figcaption>
 </figure>
 <p><br>
-We have the ability to configure alerting to 3rd party receivers when a new event impacts one or all of our devices (see screenshot below for list of 3rd party integrations). For this case, we will need to configure event notifications for "CVE Exposure" </p>
+We have the ability to configure alerting to 3rd party receivers when a new event impacts one or all of our devices (see screenshot below for list of 3rd party integrations). For this case, we will need to configure event notifications for "CVE Exposure." </p>
 <p><br></p>
 <figure>
   <img alt="First Pic" src="img/Oct-26-2.png" />
@@ -1068,14 +1068,16 @@ We have the ability to configure alerting to 3rd party receivers when a new even
 </blockquote>
 <p><br></p>
 <p>Under the Device tab, CloudVision has a built in "Compliance Dashboard" that details CVE's, Bugs, Configuration and Image Compliance, and End of Sale and Software Support information. </p>
-<p>It is here, within the CVE and Bug section, where we can find a list detailing:
-- CVE ID
-- Severity Level
-- Description
-- Number of Impacted EOS devices
-- Hostname of each impacted device
-- EOS Version introduced
-- EOS Version Fixed</p>
+<p>It is here, within the CVE and Bug section, where we can find a list detailing:</p>
+<ul>
+<li>CVE ID</li>
+<li>Severity Level</li>
+<li>Description</li>
+<li>Number of Impacted EOS devices</li>
+<li>Hostname of each impacted device</li>
+<li>EOS Version introduced</li>
+<li>EOS Version Fixed</li>
+</ul>
 <p><br></p>
 <figure>
   <img alt="First Pic" src="img/Oct-26-4.png" />
@@ -1092,7 +1094,7 @@ We have the ability to configure alerting to 3rd party receivers when a new even
 </blockquote>
 <p><br></p>
 <p>Here's where things get very interesting. Not only can CloudVision be used to orchestrate EOS software upgrades, we can orchestrate them in such a way so that they are hitless (completely invisible to end hosts with no impact to the network). </p>
-<p>Once we have identified the target version of EOS to upgrade to in order to remediate the CVE impact, we can then leverage the Software Management Studio within the Provisioning tab of CloudVision to download the EOS image and assign it to a single device or group of devices. </p>
+<p>Once we have identified the target version of EOS to upgrade to in order to remediate the CVE impact, we can then leverage the Software Management Studio to orchestrate the image upgrade.  The Studio is located within the Provisioning tab of CloudVision, and allows us to download the EOS image and assign it to a single device or group of devices all without leaving CloudVision. Gone are the days of navigating to the software download portal, downloading the .swi image to a USB stick, and manually upgrading switch by switch!</p>
 <p>For more information on the software management studio, see the following link: <a href="https://www.arista.io/help/articles/provisioning-studios-built-in-software" target="_blank">CloudVision Software Management Studio</a>.</p>
 <p><br></p>
 <figure>
