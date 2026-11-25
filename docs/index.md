@@ -9,7 +9,7 @@ description: Stay up to date with the latest Arista EOS releases, security advis
 
 # Arista Southwest Region Newsletter
 
-Welcome to the October 2026 Newsletter for Arista customers in the U.S. Southwest Region! 
+Welcome to the November 2026 Newsletter for Arista customers in the U.S. Southwest Region! 
 
 We welcome your feedback on the newsletter. If you have any ideas or suggestions on how to improve the newsletter, please reach out to [southwest@arista.com](mailto:southwest@arista.com){: target="_blank" }.  
 
@@ -20,25 +20,23 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 
 <div class="grid cards" markdown>
 
+-   **Real-Time AI Inferencing Demands a Distributed Front-End Network**
+    ---
+    *Nov 17th, 2026: Tyson Lamoreaux and Brendan Gibbs explain how
+    distributed front-end networks using Arista EOS and the R4
+    portfolio bring AI inference closer to users to cut latency and
+    bypass power limits.*
+    
+    [Read Blog](https://blogs.arista.com/blog/real-time-ai-inferencing){: target="_blank" }
+
+
+
+
 -   **Next-Gen Scale-Up Networking for AI Fabrics**
     ---
     *Oct 7th, 2026: Arihant Jain and Vijay Vusirikala detail Arista's open, Ethernet-based "Scale-Up" architecture that leverages the ESUN initiative and advanced liquid-cooled rack designs to link hundreds of AI accelerators into a single supercomputing instance without vendor lock-in.*
     
     [Read Blog](https://blogs.arista.com/blog/next-gen-scale-up-networking-for-ai-fabrics){: target="_blank" }
-
-
-
--   **The Next Frontier for AI Fabrics: Scale Across Networking**
-    ---
-    *Sep 22nd, 2026: Jayshree Ullal and Brendan Gibbs introduce Arista's Scale-Across strategy and REACH framework, demonstrating how the 7800 AI Spine and SRv6 unite geographically distributed data centers to bypass local power and space constraints for massive AI workloads.*
-    
-    [Read Blog](https://blogs.arista.com/blog/the-next-frontier-for-ai-fabrics-scale-across-networking){: target="_blank" }
-
-
-
-
-
-
 
 
 </div>
@@ -49,17 +47,33 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 ---
 
 
-## Southwest Region Tech Tip of the Quarter
+## Southwest Region Tech Tip of the Month
 
-!!! info "Time Travel is Real: Troubleshooting with CloudVision's Topology Replay"
+!!! info "Troubleshooting Tech Tip: Live CLI Monitoring with EOS Watch"
     <div style="font-size: 1.15em; line-height: 1.5;" markdown>
-    Ever tried to troubleshoot a transient network issue that happened at 3:00 AM, long after the alerts have cleared and the logs have rolled over? 
     
-    Enter **CloudVision's Topology Replay**—essentially a DVR for your entire network state.
-    
-    **Why it matters:** Because Arista EOS streams *every* state change to CloudVision's Network Data Lake (NetDL), you aren't limited to relying on syslog messages or real-time polling. You can seamlessly scrub backward in time to see the exact state of your topology, routing tables, MAC addresses, and interface counters at the precise millisecond an issue occurred. No more guessing what the network looked like during a blip.
-    
-    **Pro Tip:** The next time you are investigating a past event, navigate to the **Topology** view in CloudVision. Look for the **Time / Clock icon** at the bottom of the screen. Click it, switch from *Live* to *Historical*, and punch in the exact date and time of the incident. Watch your entire topology map, link health colors, and device states instantly revert to exactly how they looked at that very moment!
+    Have you ever found yourself mashing the Up-Arrow and Enter over and over
+    again just to see if interface errors are climbing or if a BGP
+    neighbor finally came up?
+
+    Enter the **EOS `watch` command**—a built-in way to turn any `show`
+    command into a live, auto-refreshing dashboard right in your
+    terminal.
+
+    **Why it matters:** Instead of flooding your scrollback buffer with
+    dozens of identical outputs and squinting to spot what changed,
+    `watch` refreshes the screen in place at an interval you choose.
+    Adding the `diff` keyword highlights the exact values that changed
+    since the last refresh, making incrementing counters, flapping
+    links, or converging routes jump right off the screen.
+
+    **Pro Tip:** Next time you are troubleshooting a live link or
+    watching a routing table converge, prefix your command with
+    `watch diff`. For example, run
+    `watch 2 diff show interfaces Ethernet1 counters errors` to refresh
+    every two seconds and highlight any new errors in real time. When
+    you are finished, press `Ctrl+C` to drop cleanly back to the
+    prompt!
     </div>
 
 
@@ -67,192 +81,188 @@ We welcome your feedback on the newsletter. If you have any ideas or suggestions
 
 
 ---
-## Featured Articles
+## Featured Article
 
-###  How to Discover and Remediate CVEs with No Impact to the Network Using CloudVision
-By: Alex Bojko, Advisory Systems Engineer
+### CloudVision Network Provisioning to Studios Migration Tool Workflow
+By: Morten Sefeld, Systems Engineer
 <br>
 
-As network infrastructures scale and cyber threats evolve at ever increasing speeds, maintaining a hardened security posture is no longer a feasible manual exercise. 
+CloudVision Network Provisioning has been expanded upon and advanced in our latest provisioning model, Studios Provisioning. You can easily and quickly migrate all of your configuration and software, as well as their device assignments, from the legacy Network Provisioning feature set to the Studios Provisioning feature set. 
 
-When a new Common Vulnerabilities and Exposures (CVE) or PSIRT (Product Security Incident Response Team) advisory is announced, network operations teams are immediately on the clock to identify impacted devices, assess the risk, and deploy remediation changes.
-
-Due to project Glasswing and Mythos, and other advancements in AI driven vulnerability discovery, the amount of new CVEs impacting network infrastructure has risen dramatically. This is putting an enhanced focus and additional stress on network operations teams to maintain network security compliance. In short, we need a method that will assist us in identifying which CVEs are impacting our devices and a seamless approach to remediating them.
+In this article we will show you how we can migrate 6 devices including container and device assigned configlets and assigned EOS software, from Network Provisioning to Studios using the new Studios Migration Tool. 
 
 <br>
-Arista provides not one, but two powerful, automated workflows to streamline this exact process.
+**Migration tool**
 
-- the turnkey UI-driven approach of CloudVision
-- and the programmatic, CLI-driven approach using the ANTA PSIRT (Arista Network Test Automation) Feature
-
-In this article, we will discuss and outline the first approach, starting with CloudVision as a Service (CVaaS). Stay tuned next month for Part 2, which will include a detailed write up on the ANTA PSIRT approach.
+The tool is available to activate in CloudVision under Settings -> Feature. Search for “Studios - Network Provisioning Migration, and enable it for your organization.
 
 <br>
 
-
-**Part 1: Discovering and Remediating CVEs using CloudVision**
-
-Let's start with an example scenario. It's a random Tuesday afternoon and you've just left your fourth meeting for the day. Your boss is growing concerned with the advancements of AI and how that will impact network security, and messages you asking you to detail exactly how you plan to keep the network hardened. Luckily for you, CloudVision is at your disposal. 
-
-After doing some research, you learn that Arista (among all other vendors) is seeing an increase in CVEs impacting network devices due to advancements in AI based vulnerability detection methods. The first question we must answer is as follows:
-
-<br>
-> *"How do I know when one of my EOS devices becomes impacted by a new CVE?"*
+<figure markdown="span">
+  ![First Pic](img/Nov-26-1.png)
+  <figcaption>Migration Tool Feature Toggle</figcaption>
+</figure> 
 
 <br>
 
-Since we have access to CloudVision, and have successfully onboarded all of our EOS devices, we can leverage the powerful "Event Notification" feature to answer this question. 
-
-Events are generated when criteria for a specific issue is met, and are visible in a dedicated "Events" tab within CloudVision. 
+Once enabled you will the following a blue migration bar with a Start Migration button in both Network Provisioning and Studios
 
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-1.png)
-  <figcaption>CloudVision Events Page</figcaption>
+  ![First Pic](img/Nov-26-2.png)
+  <figcaption>CloudVision Studios Migration Prompt</figcaption>
 </figure> 
 
+Before we start the actual migration, let us discover how the devices, containers and EOS images currently look in the Network Provisioning section.
+
+
 <br>
-We have the ability to configure alerting to 3rd party receivers when a new event impacts one or all of our devices (see screenshot below for list of 3rd party integrations). For this case, we will need to configure event notifications for "CVE Exposure." 
+**Containers**
+
+All 6 devices are organized under the Lab Devices container.
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-2.png)
-  <figcaption>CloudVision Event Notification 3rd Party Integrations</figcaption>
+  ![First Pic](img/Nov-26-3.png)
+  <figcaption>Network Provisioning Managed Lab Device</figcaption>
 </figure> 
 
-
 <br>
+**Configlets**
 
-Detailed steps for configuring event notifications in CloudVision can be found at the following link: [CloudVision Event Notifications](https://www.arista.io/help/articles/events-configure-notifications){: target="_blank" }.
-
-Once configured, anytime a new CVE is found to be impacting one of our Arista switches, we will receive an alert within the 3rd party source that we provisioned for alerts. Below is an example from Google Chat:
+Each device has a device specific configlet assigned that is unique to itself, and resides in the Lab Devices container. The Lab Devices container is assigned 2 configlets, which are inherited by all 6 devices in the container. 
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-3.png)
-  <figcaption>CloudVision Event Notification Alert - Google Chat</figcaption>
+  ![First Pic](img/Nov-26-4.png)
+  <figcaption>Network Provisioning Configlets</figcaption>
 </figure> 
 
-
 <br>
+**EOS Images**
 
-
-
-Knowing exactly when a new CVE is detected on a device is very powerful, but that leads us to the next question:
-
-<br>
-> *"Where can I go to see a list of all the CVEs currently impacting all of my EOS devices?"*
-
-<br>
-
-Under the Device tab, CloudVision has a built in "Compliance Dashboard" that details CVE's, Bugs, Configuration and Image Compliance, and End of Sale and Software Support information. 
-
-It is here, within the CVE and Bug section, where we can find a list detailing:
-
-- CVE ID
-- Severity Level
-- Description
-- Number of Impacted EOS devices
-- Hostname of each impacted device
-- EOS Version introduced
-- EOS Version Fixed
+All 6 devices are vEOS lab devices and assigned vEOS-lab-4.32.3M via the Lab Devices Container. 
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-4.png)
-  <figcaption>CloudVision Compliance Overview Dashboard</figcaption>
+  ![First Pic](img/Nov-26-5.png)
+  <figcaption>Network Provisioning Image Repository</figcaption>
 </figure> 
 
-
 <br>
+**Migration Steps**
 
-
-The Compliance Overview Dashboard provides you with a one stop shop to see everything you need to know about CVEs that are impacting EOS devices on your network. It even lists the version of EOS in which the CVE was fixed!
-
-For more information on the compliance dashboard, see the following link: [CloudVision Compliance Dashboard](https://www.arista.io/help/articles/devices-compliance-bug-cve){: target="_blank" }. 
-
-Armed with this information, we can move on and ask this question:
-
-<br>
-> *"I know which version of EOS I need to upgrade to in order to remediate CVEs from my device. Can I use CloudVision to facilitate EOS upgrades? And how long should I expect my switch to remain offline during the software reboot? I need to notify other teams and customers of this upcoming outage window."*
-
-<br>
-
-Here's where things get very interesting. Not only can CloudVision be used to orchestrate EOS software upgrades, we can orchestrate them in such a way so that they are hitless (completely invisible to end hosts with no impact to the network). 
-
-Once we have identified the target version of EOS to upgrade to in order to remediate the CVE impact, we can then leverage the Software Management Studio to orchestrate the image upgrade.  The Studio is located within the Provisioning tab of CloudVision, and allows us to download the EOS image and assign it to a single device or group of devices all without leaving CloudVision. Gone are the days of navigating to the software download portal, downloading the .swi image to a USB stick, and manually upgrading switch by switch!
-
-For more information on the software management studio, see the following link: [CloudVision Software Management Studio](https://www.arista.io/help/articles/provisioning-studios-built-in-software){: target="_blank" }.
+To begin the migration itself, click the blue Start Migration button and walk through the guide where you first will be presented some highlights of Studios such as Real-Time Collaboration, Automated Validation, Granular Access Control among other features.
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-5.png)
-  <figcaption>CloudVision Studios - Software Management Studio</figcaption>
+  ![First Pic](img/Nov-26-6.png)
+  <figcaption>Migration to Studios - Steps Start</figcaption>
 </figure> 
 
+Click Next to proceed to the migration screen where the five migration steps are listed. 
 
-<br>
-
-Once assigned, we submit the workspace in Studios and navigate to the prompted Change Control tab. Before executing, we must specify this upgrade as a SSU (Smart System Upgrade) in order to upgrade in a hitless fashion. We can do this using one of two methods, using a preconfigured change control template or via the Device Arguments section.
-
-Leveraging a hitless upgrade using a preconfigured Change Control Template is shown below. The template is the ideal approach, providing you with pre-set stages where Snapshots, or outputs of various show commands, can be integrated into the change control, as well as automatically designating the device for a hitless SSU upgrade. 
-
-
-For more information on Change Control Templates, see the following link: [Change Control Templates](https://www.arista.io/help/articles/provisioning-change-control-templates){: target="_blank" }.
+**Step-1.**  The migration tool automatically performs checks to ensure compatibility and a flawless migration. On successful checks the actual migration begins.
 
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-6.png)
-  <figcaption>CloudVision Change Control Template</figcaption>
+  ![First Pic](img/Nov-26-7.png)
+  <figcaption>Migration to Studios - Steps Complete</figcaption>
 </figure> 
 
 
-<br>
+**Step-2.** Your devices are registered in the Inventory and Topology Studio. 
 
-Leveraging a hitless upgrade using the Device Arguments tab is shown below. This is the required approach if not leveraging a pre configured template.
+**Step-3.** Configlets and containers are migrated into the Static Configuration Studio.
 
 <br>
 
 <figure markdown="span">
-  ![First Pic](img/Oct-26-7.png)
-  <figcaption>CloudVision Change Control - SSU Argument Option</figcaption>
+  ![First Pic](img/Nov-26-8.png)
+  <figcaption>Migration Configlet and Container Mappings</figcaption>
+</figure> 
+
+
+**Step-4.** In this final migration step all EOS images and ZTP setting are copied into the Software Management Studio 
+
+**Step-5.** Finish the migration. If all previous steps were successful you can review the automatically created migration workspace and submit it to complete the migration. 
+
+<br>
+
+<figure markdown="span">
+  ![First Pic](img/Nov-26-9.png)
+  <figcaption>Migration Workspace Review in Studios</figcaption>
+</figure> 
+
+Please notice that no configuration or software updates are pushed onto the devices, as this is an internal CloudVision migration, and no devices running configuration will be touched during the process. 
+
+
+<br>
+
+<figure markdown="span">
+  ![First Pic](img/Nov-26-10.png)
+  <figcaption>Migration Proposed Software Changes</figcaption>
 </figure> 
 
 
 <br>
 
+<figure markdown="span">
+  ![First Pic](img/Nov-26-11.png)
+  <figcaption>Migration Proposed Configuration Changes</figcaption>
+</figure> 
 
-At this point, you may be asking yourself another question:
 
-<br>
-> *"Is this upgrade truly hitless, won't I impact end users once I execute this Change Control and upgrade the software on my switch?"*
-
-<br>
-
-The answer to that question is as follows: This is a truly hitless upgrade, and there will not be any noticeable impact to end users. With SSU, the device still reloads, however it uses the last known state of the control plane to continue forwarding traffic in the data plane during the reload while the control plane is offline, all while still supplying PoE to end devices and full connectivity to users. 
-
-For more information on EOS Hitless Upgrades, see the following link: [EOS Hitless Upgrades](https://tech-library.arista.com/solution_guides/ssu/){: target="_blank" }. 
-
-Once the SSU hitless upgrade method is specified on the desired device(s) within the Change control, we can execute the change control and upgrade the device. 
-
-That brings us to the final question:
+**Important.** Be aware that migration is a one time process and can not be re-run after successful competition. CloudVision is fully migrated to Studios and the Network Provisioning feature will be disabled and removed from the provisioning menu in CloudVision.
 
 <br>
-> *"How do I verify the CVEs are no longer impacting my device(s)?"*
+**Post Migration Checks**
+All 6 devices from Network Provisioning were successfully migrated and are active in the inventory and Topology Studio.
 
 <br>
 
-The answer to this question is the same approach to how we identify which CVEs are currently impacting our EOS devices. The Compliance Overview Dashboard in CloudVision will automatically update both once new CVEs are found, and once CVEs are remediated, all thanks to the real time streaming telemetry capabilities of Arista EOS and CloudVision. 
+<figure markdown="span">
+  ![First Pic](img/Nov-26-12.png)
+  <figcaption>Migration Device Validation</figcaption>
+</figure> 
 
-I hope you found this article helpful. Please stay tuned for Part 2 next month, where we will discuss identifying CVEs on EOS devices using the ANTA PSIRT Framework.
+Containers and configlet assignments can be found in the Static Configuration Studio. Notice the Tenant and Lab Devices containers, and that Lab Devices have two configlets assigned, and each of the 6 devices have one configlet directly assigned. 
+
+
+<br>
+
+<figure markdown="span">
+  ![First Pic](img/Nov-26-13.png)
+  <figcaption>Static Configuration Studio Container Tree</figcaption>
+</figure> 
+
+
+In Software Management Studio the vEOS-lab-4.32M EOS bundle is assigned the 6 devices exactly as previously in the image Repository.
+
+<br>
+
+<figure markdown="span">
+  ![First Pic](img/Nov-26-14.png)
+  <figcaption>Software Management Studio - Image to Device List Mapping Using Tags</figcaption>
+</figure> 
+
+
+
+This concludes the Network Provisioning to Studios migration. We have successfully migrated all configlets and images from the legacy Network Provisioning model into the enhanced Studios Workflow, distributing everything into the relevant studios.
+
+
+
+
+
+
 
 
 ---
@@ -333,13 +343,11 @@ Click on the boxes below to be directed to Arista's website for additional lists
 <br>
 
 ### **Field Notices**
-- **issue triggering a reboot of the switch after 1042 days of uptime** — [Field Notice 0142](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 15th, 2026)*
-- **CVA Appliance Host Resource Reservation** — [Field Notice 0141](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 12th, 2026)*
-- **CVP On-Prem Data Retention** — [Field Notice 0140](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 9th, 2026)*
-- **Migration of Wi-Fi services from arista.com to arista.io** — [Field Notice 0139](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 8th, 2026)*
-- **Change in defaults of configuration options in CV-CUE after 15th January, 2027** (SSID profiles and Access Point Groups) — [Field Notice 0138](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 8th, 2026)*
-- **New EOS image signing key** (This applies to platforms running EOS 4.30.1F or earlier versions that have Secure Boot enabled) — [Field Notice 0137](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 7th, 2026)*
-
+- **CloudVision On-Prem Kubernetes API Server** — [Field Notice 0148](https://www.arista.com/en/support/advisories-notices/field-notice/25223-field-notice-0148){: target="_blank" } <br> *(November 23rd, 2026)*
+- **eMudhra Intermediate CA key compromise** — [Field Notice 0147](https://www.arista.com/en/support/advisories-notices/field-notice/25222-field-notice-0147){: target="_blank" } <br> *(November 23rd, 2026)*
+- **VeloCloud Edge devices Man in the Middle attacks exposure** — [Field Notice 0146](https://www.arista.com/en/support/advisories-notices/field-notice/25175-field-notice-0146){: target="_blank" } <br> *(November 17th, 2026)*
+- **Arista Infrastructure services transitioning to Dual Stack IPv4 IPv6 for AP to Cloud Connectivity** — [Field Notice 0145](https://www.arista.com/en/support/advisories-notices/field-notice/25059-field-notice-0145){: target="_blank" } <br> *(November 10th, 2026)*
+- **Canada Permanent Daylight Savings Time** — [Field Notice 0144](https://www.arista.com/en/support/advisories-notices/field-notice/25022-field-notice-0144){: target="_blank" } <br> *(November 3rd, 2026)*
 <br>
 
 [View All of the Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
