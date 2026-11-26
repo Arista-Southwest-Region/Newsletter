@@ -221,10 +221,11 @@ Please notice that no configuration or software updates are pushed onto the devi
 </figure> 
 
 
-**Important.** Be aware that migration is a one time process and can not be re-run after successful competition. CloudVision is fully migrated to Studios and the Network Provisioning feature will be disabled and removed from the provisioning menu in CloudVision.
+**Important.** Be aware that migration is a one time process and can not be re-run after successful completion. CloudVision is fully migrated to Studios and the Network Provisioning feature will be disabled and removed from the provisioning menu in CloudVision.
 
 <br>
 **Post Migration Checks**
+
 All 6 devices from Network Provisioning were successfully migrated and are active in the inventory and Topology Studio.
 
 <br>
